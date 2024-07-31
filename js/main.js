@@ -74,7 +74,7 @@ function playGame(e){
 //create a method whoWon to determine the winner
 function checkWhoWon(){
 
-	//Would love clarity on how this loop works and what it's function is. 
+/***********This section checks for a horizontal winner  ******************************* */
 	for (let i = 0; i < 3; i++) { // loop for three times
 		if (cellsArray[i * 3].innerText != "" //if the space is not empty
 		&& cellsArray[i * 3].innerText == cellsArray[i * 3 + 1].innerText 
@@ -126,5 +126,4 @@ function checkWhoWon(){
 
 }
 
-
-startGame();
+startGame()

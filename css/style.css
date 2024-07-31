@@ -26,7 +26,9 @@ body {
 
 }	
 h1 {
-	font-family: 'Lilita One', cursive;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	background: rgba(255, 255, 255, 0.157);
 	text-align: center;
 	color: #ffffff;
